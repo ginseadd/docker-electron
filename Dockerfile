@@ -1,4 +1,4 @@
-FROM ssb
+FROM ginseadd/ssb
 # TODO: switch the order - ssb should inherit from electron, so that electron is more universally useful
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
